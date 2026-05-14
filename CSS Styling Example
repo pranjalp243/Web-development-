@@ -1,0 +1,117 @@
+1) CSS
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+tr:hover {
+    background-color: #d4edda;
+    transition: 0.3s;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+2) HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styling Example</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            letter-spacing: 2px;
+        }
+
+        table {
+            width: 70%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="
+        text-align:center;
+        color:white;
+        background: linear-gradient(to right, #4e73df, #1cc88a);
+        padding:15px;
+        border-radius:8px;">
+        Student Performance Report
+    </h1>
+
+    <h2>Applying Inline, Internal & External CSS</h2>
+
+    <table border="0">
+        <tr>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td>Sahil</td>
+            <td>85</td>
+            <td>78</td>
+            <td>88</td>
+            <td>251</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>90</td>
+            <td>82</td>
+            <td>75</td>
+            <td>247</td>
+        </tr>
+
+        <tr>
+            <td>Priya</td>
+            <td>88</td>
+            <td>91</td>
+            <td>84</td>
+            <td>263</td>
+        </tr>
+
+        <tr>
+            <td>Neha</td>
+            <td>95</td>
+            <td>89</td>
+            <td>92</td>
+            <td>276</td>
+        </tr>
+    </table>
+
+</body>
+</html>
