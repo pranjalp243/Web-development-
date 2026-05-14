@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage with Image, Hyperlink, and Nested Table</title>
+</head>
+<body>
+
+    <h1>Student Exam Details</h1>
+
+    <h2>Image</h2>
+    <img src="istockphoto-910130880-612x612.jpg" alt="Sample Image" width="200" height="200">
+
+    <h2>Hyperlink</h2>
+    <p>
+        Visit
+        <a href="https://www.google.com" target="_blank">
+            Google Website
+        </a>
+        for more information.
+    </p>
+
+    <h2>Exam Marks Table</h2>
+
+    <table border="2" cellpadding="10">
+
+        <tr>
+            <th>Student Name</th>
+            <th>Marks Details</th>
+        </tr>
+
+        <tr>
+            <td>Sahil</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>85</td>
+                        <td>78</td>
+                        <td>88</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>90</td>
+                        <td>82</td>
+                        <td>75</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Priya</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>88</td>
+                        <td>91</td>
+                        <td>84</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Amit</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>72</td>
+                        <td>80</td>
+                        <td>70</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Neha</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>95</td>
+                        <td>89</td>
+                        <td>92</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
