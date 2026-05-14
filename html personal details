@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><u>My Personal Details</u></h1>
+
+    <p><b>Name:</b> Pranjal Pawar</p>
+    <p><strong>College:</strong> Trinity College of Engineering and Research, Pune</p>
+    <p><b>Course:</b> <i>Computer Engineering</i></p>
+
+    <p><b>Career Interests:</b></p>
+    <em>Artificial Intelligence</em>,
+    <em>Cybersecurity</em>,
+    <em>Cloud Computing</em>
+
+    <p><b>Email:</b> <small>pranjal24@gmail.com</small></p>
+
+    <p><b>About Me:</b><br>
+        I am a passionate engineering student interested in
+        developing innovative technical projects and learning new technologies.
+    </p>
+
+</body>
+</html>
+
